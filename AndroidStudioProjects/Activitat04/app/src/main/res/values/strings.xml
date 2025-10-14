@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Activitat 04</string>
+    <string name="male">HOMBRE</string>
+    <string name="female">MUJER</string>
+    <string name="tituloSuperior">MCalculator</string>
+
+</resources>
