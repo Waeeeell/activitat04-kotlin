@@ -9,6 +9,8 @@ import androidx.core.view.WindowInsetsCompat
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
+import com.google.android.material.slider.RangeSlider
+import java.text.DecimalFormat
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,6 +19,8 @@ class MainActivity : AppCompatActivity() {
     private var isFemaleSelected: Boolean = false
     private lateinit var male: CardView
     private lateinit var female: CardView
+    private lateinit var numAlt: TextView
+    private lateinit var rsAlt: RangeSlider
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,6 +37,8 @@ class MainActivity : AppCompatActivity() {
     private fun initComponent(){
         male = findViewById(R.id.home)
         female = findViewById(R.id.dona)
+        numAlt = findViewById<TextView>(R.id.numAlt)
+        rsAlt = findViewById<RangeSlider>(R.id.rsAlt)
     }
 
     private fun initListeners(){
@@ -44,7 +50,11 @@ class MainActivity : AppCompatActivity() {
             changeGender()
             setGenderColor()
         }
-
+        rsAlt.addOnChangeListener { _, value, _ ->
+            val df = DecimalFormat("#.##")
+            val result = df.format(value)
+            numAlt.text = "$result cm"
+        }
     }
 
     private fun setGenderColor(){

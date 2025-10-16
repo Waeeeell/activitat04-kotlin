@@ -3,5 +3,6 @@
     <string name="male">HOMBRE</string>
     <string name="female">MUJER</string>
     <string name="tituloSuperior">MCalculator</string>
+    <string name="altura">ALTURA</string>
 
 </resources>

@@ -2,7 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFF</color>
-    <color name="boton_seleccionat">#75C9D7</color>
-    <color name="boton">#4384B1</color>
-    <color name="background">#A8E7FA</color>
+    <color name="boton_seleccionat">#112737</color>
+    <color name="boton">#05354E</color>
+    <color name="background">#011C2A</color>
     </resources>
