@@ -5,4 +5,8 @@
     <color name="boton_seleccionat">#112737</color>
     <color name="boton">#05354E</color>
     <color name="background">#011C2A</color>
+    <color name="texto">#B8D0FB</color>
+    <color name="sumaResta">#375EB8</color>
+    <color name= "cajaCalcula">#375EB8</color>
+
     </resources>
