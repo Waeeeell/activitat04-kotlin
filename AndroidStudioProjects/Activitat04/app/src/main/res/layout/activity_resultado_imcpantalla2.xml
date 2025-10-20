@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    android:padding="64dp"
+    android:padding="16dp"
     >
 
     <TextView
@@ -17,8 +17,8 @@
         android:layout_height="wrap_content"
         android:text="@string/resultado"
         android:textStyle="bold"
-        android:textSize="45sp"
-        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textColor="@color/texto"
         android:layout_marginTop="16dp"/>
 
     <androidx.cardview.widget.CardView
@@ -55,21 +55,25 @@
                 android:id="@+id/resultado2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:text="hola"
+                tools:text="27.07"
                 android:textSize="65sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
-                android:layout_marginVertical="35dp">
+                android:layout_marginVertical="35dp"
+                >
 
             </TextView>
             <TextView
                 android:id="@+id/descripcionSituacion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:text="hola"
-                android:textSize="25sp"
+                tools:text="Excelente!, tu imc és el óptimo en relación a tu peso y altura!"
+                android:textSize="20sp"
                 android:textColor="@color/white"
-                android:layout_marginVertical="35dp">
+                android:layout_marginVertical="35dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_margin="16dp">
 
             </TextView>
 

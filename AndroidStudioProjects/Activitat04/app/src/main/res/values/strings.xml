@@ -9,5 +9,14 @@
     <string name="calcular">CALCULAR</string>
     <string name="resultado">Tu resultado</string>
     <string name="recalculate">Re Calcular</string>
+    <string name="error">Error</string>
+    <string name="imc_bajo">BAJO</string>
+    <string name="descripcion_peso_bajo">Tu imc es bajo en relación a tu peso y altura.</string>
+    <string name="imc_normal">NORMAL</string>
+    <string name="descripcion_peso_normal">Excelente!, tu imc és el óptimo en relación a tu peso y altura!</string>
+    <string name="sobrepeso">SOBREPESO</string>
+    <string name="Descripcion_sobrepeso">Tu imc está por encima del estimado en relacion a tu peso y altura.</string>
+    <string name="obesidad">OBESIDAD</string>
+    <string name="Descripcion_obesidad">Atención! Tu imc está muy por encima de lo estimado !</string>
 
 </resources>

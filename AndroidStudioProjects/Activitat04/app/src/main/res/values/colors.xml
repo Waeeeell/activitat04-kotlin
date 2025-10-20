@@ -8,5 +8,10 @@
     <color name="texto">#B8D0FB</color>
     <color name="sumaResta">#375EB8</color>
     <color name= "cajaCalcula">#375EB8</color>
+    <color name="rojoObesidad">#FA4A4A</color>
+    <color name="verdeBien">#4CAF50</color>
+    <color name= "Amarillo">#FFC107</color>
+    <color name= "Naranja">#FF9800</color>
+    <color name= "auxiliar">#4CAF50</color>
 
     </resources>
